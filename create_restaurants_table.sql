@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS `tokyo_takeout.restaurants` (
+CREATE TABLE IF NOT EXISTS `restaurants` (
     `id`          INT          NOT NULL	AUTO_INCREMENT PRIMARY KEY COMMENT 'ID of the restaurant',
     `url`         TEXT         NOT NULL            COMMENT 'Home page URL of the restaurant',
     `image_name`  VARCHAR(512)          DEFAULT '' COMMENT 'Image name of the restaurant',
@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS `tokyo_takeout.restaurants` (
     `tel`         VARCHAR(10)  NOT NULL            COMMENT 'Phone number of the restaurant',
     `open_hours`  TEXT                  DEFAULT '' COMMENT 'Open hour of the restaurant',
     `address`     VARCHAR(512) NOT NULL            COMMENT 'Address of the restaurant',
-    `area`.       VARCHAR(64)  NOT NULL            COMMENT 'Area of the restaurant',
+    `area`        VARCHAR(64)  NOT NULL            COMMENT 'Area of the restaurant',
     `comment`     TEXT         NOT NULL	DEFAULT '' COMMENT 'Comment for the restaurant',
     `create_time` DATETIME     NOT NULL	DEFAULT CURRENT_TIMESTAMP,
     `update_time` DATETIME     NOT NULL	DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
