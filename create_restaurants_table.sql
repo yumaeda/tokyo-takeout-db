@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS `restaurants` (
     `image_name`  VARCHAR(512)          DEFAULT '' COMMENT 'Image name of the restaurant',
     `name`        VARCHAR(512) NOT NULL            COMMENT 'Name of the restaurant',
     `genre`       VARCHAR(512) NOT NULL            COMMENT 'Genre of the restaurant',
-    `tel`         VARCHAR(10)  NOT NULL            COMMENT 'Phone number of the restaurant',
+    `tel`         VARCHAR(11)  NOT NULL            COMMENT 'Phone number of the restaurant',
     `open_hours`  TEXT                  DEFAULT '' COMMENT 'Open hour of the restaurant',
     `address`     VARCHAR(512) NOT NULL            COMMENT 'Address of the restaurant',
     `area`        VARCHAR(64)  NOT NULL            COMMENT 'Area of the restaurant',
