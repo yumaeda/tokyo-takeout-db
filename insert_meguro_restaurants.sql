@@ -1,0 +1,18 @@
+INSERT INTO restaurants(url,
+                        image_name,
+                        name,
+                        genre,
+                        tel,
+                        open_hours,
+                        address,
+                        area,
+                        comment)
+VALUES ('https://order.takeme.com/app/shop/74f9ee6c-7cfa-46bd-80e6-25b5c4648a50',
+        '',
+        'ONE THE DINER （ワンザダイナー）',
+        'ダイニングバー、ステーキ、ハンバーガー',
+        '0364557588',
+        '［月〜金］11：30〜23:00、［土日］11：30〜21:00',
+        '東京都品川区上大崎1-1-14 ト-カン白金キャステ-ル 1F',
+        'meguro',
+        '');
