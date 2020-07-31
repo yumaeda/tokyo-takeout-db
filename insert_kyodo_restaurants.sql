@@ -1,0 +1,18 @@
+INSERT INTO restaurants(url,
+                        image_name,
+                        name,
+                        genre,
+                        tel,
+                        open_hours,
+                        address,
+                        area,
+                        comment)
+VALUES ('https://tabelog.com/tokyo/A1318/A131813/13202831/',
+        '',
+        'はしぐち亭',
+        '洋食、バル・バール',
+        '05055947267',
+        '11:30〜20:00',
+        '東京都世田谷区経堂1-11-13 ウエダビル１F',
+        'kyodo',
+        '');
