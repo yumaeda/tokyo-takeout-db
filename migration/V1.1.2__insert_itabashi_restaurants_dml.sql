@@ -6,7 +6,8 @@ INSERT INTO restaurants(url,
                         open_hours,
                         address,
                         area,
-                        comment)
+                        comment,
+                        takeout_available)
 VALUES ('https://tabelog.com/tokyo/A1322/A132201/13105629/',
         '',
         '和可奈',
@@ -15,7 +16,8 @@ VALUES ('https://tabelog.com/tokyo/A1322/A132201/13105629/',
         '',
         '東京都板橋区板橋1-10-9',
         'itabashi',
-        '');
+        '',
+        0);
 
 INSERT INTO restaurants(url,
                         image_name,
@@ -25,7 +27,8 @@ INSERT INTO restaurants(url,
                         open_hours,
                         address,
                         area,
-                        comment)
+                        comment,
+                        takeout_available)
 VALUES ('https://tabelog.com/tokyo/A1322/A132201/13146883/',
         '',
         '馬の串ん',
@@ -34,4 +37,5 @@ VALUES ('https://tabelog.com/tokyo/A1322/A132201/13146883/',
         '[月～木] 17:00～25:00、[金・祝前日] 17:00～25:30、[土] 16:00～25:30、[日・祝] 16:00～24:00',
         '東京都北区滝野川7-2-6 白井ビル 2F',
         'itabashi',
-        '');
+        '',
+        0);
