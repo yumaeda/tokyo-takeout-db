@@ -30,7 +30,7 @@ INSERT INTO restaurants(url,
                         comment,
                         takeout_available)
 VALUES ('https://tabelog.com/tokyo/A1305/A130501/13211375/',
-        '',
+        'あまてらす',
         '稲水器 あまてらす （いなみずき あまてらす）',
         '魚介料理・海鮮料理、割烹・小料理、居酒屋',
         '05055951312',
