@@ -1,0 +1,5 @@
+ALTER TABLE restaurants
+  MODIFY latitude VARCHAR(24) DEFAULT NULL;
+
+ALTER TABLE restaurants
+  MODIFY longitude VARCHAR(24) DEFAULT NULL;
