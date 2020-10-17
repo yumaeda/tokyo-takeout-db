@@ -15,9 +15,9 @@ CREATE TABLE IF NOT EXISTS `rankings` (
         FOREIGN KEY (dish_id) REFERENCES dishes (id)
         ON DELETE CASCADE
         ON UPDATE RESTRICT,
-    `restaurant_id` BINARY(16)   NOT NULL COMMENT 'ID of the restaurant',
-    CONSTRAINT `fk_ranking_restaurant`
-        FOREIGN KEY (restaurant_id) REFERENCES restaurants (id)
+    `photo_id`      INT NOT NULL COMMENT 'ID of the photo',
+    CONSTRAINT `fk_ranking_photo`
+        FOREIGN KEY (photo_id) REFERENCES photos (id)
         ON DELETE CASCADE
         ON UPDATE RESTRICT
 ) COLLATE utf8mb4_unicode_ci;
