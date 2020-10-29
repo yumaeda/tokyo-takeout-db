@@ -1,0 +1,11 @@
+DELETE FROM restaurants WHERE id = UuIdToBin('da04e25b-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da04e8cc-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da04ebd5-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da04efc9-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da04f33a-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da04f408-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da0541ac-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da0543d7-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da054544-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da0546c8-ffb0-11ea-ba65-065a10bcba76');
+DELETE FROM restaurants WHERE id = UuIdToBin('da054c9d-ffb0-11ea-ba65-065a10bcba76');
